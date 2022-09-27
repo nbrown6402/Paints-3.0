@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.paints.By">
+   <children>
+      <Button layoutX="203.0" layoutY="160.0" mnemonicParsing="false" onAction="#yes" text="Yes" />
+      <Button layoutX="289.0" layoutY="160.0" mnemonicParsing="false" onAction="#no" text="No" />
+      <Label layoutX="47.0" layoutY="92.0" text="You forgot to save. Would you like to save now?" />
+      <Line endX="100.0" layoutX="148.0" layoutY="48.0" startX="-100.0" style="-fx-stroke-dash-array: 10;" />
+   </children>
+</AnchorPane>
